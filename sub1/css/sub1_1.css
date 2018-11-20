@@ -1,0 +1,127 @@
+﻿/* body{ background: url(../sub_culture.jpg) no-repeat center top;} */
+
+*{margin: 0; padding: 0; border: 0;}
+ul{list-style: none;}
+@font-face {
+	font-family: 'YouandiModernTR';
+	font-style: normal;
+	font-weight: normal;
+	src: url(../font/YouandiModernTR.eot);
+	src: url(../font/YouandiModernTR.eot?#iefix) format('embedded-opentype'),
+         url(../font/YouandiModernTR.woff) format('woff'),
+         url(../font/YouandiModernTR.ttf) format('opentype');
+}
+body{/* font-family: "YouandiModernTR","YouandiModern","YouandiModernHEB",dotum,"돋움",gulim,"굴림",Arial,AppleGothic,verdana,sans-serif,helvetica;  */ font-family: "YouandiModernTR";}
+ul{list-style: none; padding: 0; margin: 0;}
+a{text-decoration: none;}
+
+
+#layout{margin: 0px auto; width: 100%; font-family: "YouandiModernTR"; }
+.cf:after{content: ""; display: block; clear: both;}
+/* #wrap{width: 1400px; margin: 0 auto;} */
+#top{position: relative; width: 100%;  background: #181414; /* margin-bottom: 41px; */ font-family: "YouandiModernTR";/* left: 92px; */}
+
+#top_set{float: left; width: 100%; height: 38px; font-size: 11px;}
+#top_set > ul{float: right; width: 500px; height: 38px; margin-right: 68px; margin-top: 3px;}
+#top_set li.store{float: right; padding: 10px 0 10px 8px;}
+#top_set li.cor{float: right; padding: 10px 8px;}
+#top_set li.indi{float: right; padding: 10px 8px;}
+#top_set li.per{float: right; padding: 10px 8px;}
+#top_set li.join{float: right; padding: 10px 20px;}
+#top_set li.login{float: right; padding: 2px 7px; border: 1px solid #373737; margin-top: 8px;}
+#top_set ul li a{color: #999999; font-family: "YouandiModernTR";}
+#top_set ul li a:hover{color: #ffffff;}
+
+#gnb_box{float: left; width: 100%; height: 67px;}
+#gnb_logo{/* top: 125px; left: 100px; */ float: left; width: 206px; height: 20px; /* padding: 15px 0 0 2px; */ margin-left: 69px; margin-top: 15px;}
+
+#gnb_menu{float: left; width: 1000%; height: 68px; margin-left: 389px; margin-top: -38px; position: relative; font-family: "YouandiModernTR"; font-size: 13px; line-height: 20px;}
+#gnb_menu > ul > li{display: inline; float: left;}
+#gnb_menu > ul > li > a{display: block; padding: 22px 19px 31px 19px; color: #ffffff; font-size: 14px; font-family: "YouandiModernTR"}
+#gnb_menu > ul > li > a:hover{background-color: #ffffff; color: #1F75D6;}
+#gnb_menu > ul > li > a:focus{background-color: #ffffff; color: #1F75D6;}
+#search{float: right; width: 24px; height: 24px; margin-top: 17px;}
+#search a{padding-top: 10px;}
+#gnb_menu > ul{position: relative; top: 0; left: 0;}
+
+.sub1_1 li{float: none;}
+
+ul > li > #sub{display: none;}
+ul > li:hover > #sub{display: block;}
+
+ul > li > #sub2{display: none;}
+ul > li:hover > #sub2{display: block;}
+
+ul > li > #sub3{display: none;}
+ul > li:hover > #sub3{display: block;}
+ul > li > #sub4{display: none;}
+ul > li:hover > #sub4{display: block;}
+ul > li > #sub5{display: none;}
+ul > li:hover > #sub5{display: block;}
+ul > li > #sub6{display: none;}
+ul > li:hover > #sub6{display: block;}
+ul > li > #sub7{display: none;}
+ul > li:hover > #sub7{display: block;}
+ul > li > #sub8{display: none;}
+ul > li:hover > #sub8{display: block;} 
+
+#sub:hover .main_m > li > a{background-color: #ffffff; color: #1F75D6;}
+
+/* 2 Depth */
+.main_m a{color: #999999;}
+.main_m a:hover{color: #1F75D6;}
+.main_m h4{margin-bottom: 5px; color: #191919;}
+#sub{position: absolute; top: 70px; background: #ffffff; /* background: rgba(0,0,0,0.7) */; width: 1401px;  height: 345px; margin-left: -342px; line-height: 23px;} 
+/* #gnb_menu #sub .sub1_1 li:hover{background: #000000;} */
+.sub1_1{position: absolute; top: 27px; left: 362px; }
+.sub1_2{position: absolute; top: 27px; left: 563px; }
+.sub1_3{position: absolute; top: 27px; left: 763px; }
+.sub1_4{position: absolute; top: 148px; left: 763px; }
+.sub1_5{position: absolute; top: 27px; left: 955px; }
+.sub1_6{position: absolute; top: 148px; left: 955px; }
+.sub1_7{position: absolute; top: 27px; left: 1154px; }
+.sub1_8{position: absolute; top: 190px; left: 1154px; }
+/* #sub a:hover{color: #1F75D6;} */
+
+#sub2{position: absolute; top: 70px; background-color: #ffffff;  width: 1401px; height: 275px; margin-left: -462px; line-height: 23px;}
+.sub2_1{position: absolute; top: 27px; left: 362px; }
+.sub2_2{position: absolute; top: 55px; left: 486px; }
+.sub2_3{position: absolute; top: 55px; left: 583px; }
+.sub2_4{position: absolute; top: 55px; left: 666px; }
+.sub2_5{position: absolute; top: 110px; left: 666px; }
+.sub2_6{position: absolute; top: 55px; left: 825px; }
+.sub2_7{position: absolute; top: 27px; left: 975px; }
+.sub2_8{position: absolute; top: 124px; left: 975px; }
+.sub2_9{position: absolute; top: 27px; left: 1176px; }
+
+#sub3{position: absolute; top: 70px; background-color: #ffffff;  width: 1400px; height: 227px; margin-left: -584px; line-height: 23px;}
+.sub3_1{position: absolute; top: 35px; left: 605px; }
+
+#sub4{position: absolute; top: 70px; background-color: #ffffff;  width: 1400px; height: 232px; margin-left: -688px; line-height: 23px;}
+.sub4_1{position: absolute; top: 35px; left: 706px; }
+.sub4_2{position: absolute; top: 35px; left: 912px; }
+.sub4_3{position: absolute; top: 35px; left: 1111px; }
+
+#sub5{position: absolute; top: 70px; background-color: #ffffff;  width: 1400px; height: 195px; margin-left: -793px; line-height: 23px;}
+.sub5_1{position: absolute; top: 32px; left: 811px; }
+
+#sub6{position: absolute; top: 70px; background-color: #ffffff;  width: 1400px; height: 195px; margin-left: -894px; line-height: 23px;}
+.sub6_1{position: absolute; top: 32px; left: 912px; }
+
+#sub7{position: absolute; top: 70px; background-color: #ffffff;  width: 1400px; height: 297px; margin-left: -1016px; line-height: 23px;}
+.sub7_1{position: absolute; top: 30px; left: 362px; }
+.sub7_2{position: absolute; top: 30px; left: 564px; }
+.sub7_3{position: absolute; top: 30px; left: 765px; }
+.sub7_4{position: absolute; top: 30px; left: 966px; }
+
+#sub8{position: absolute; top: 70px; background-color: #ffffff;  width: 1400px; height: 322px; margin-left: -1158px; line-height: 23px;}
+.sub8_1{position: absolute; top: 30px; left: 362px; }
+.sub8_2{position: absolute; top: 30px; left: 564px; }
+.sub8_3{position: absolute; top: 30px; left: 765px; }
+.sub8_4{position: absolute; top: 30px; left: 966px; }
+
+#mainpic{background: rgba(0, 0, 0, 0) url(../images/visual_life_main_7.jpg) no-repeat scroll center center / cover;  height: 650px; }
+
+
+
+

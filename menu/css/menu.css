@@ -1,0 +1,164 @@
+﻿body{ background: url(../main_page.jpg) no-repeat center top;}
+ 
+*{margin: 0; padding: 0; border: 0;}
+ul{list-style: none;}
+@font-face {
+	font-family: 'YouandiModernTR';
+	font-style: normal;
+	font-weight: normal;
+	src: url(../font/YouandiModernTR.eot);
+	src: url(../font/YouandiModernTR.eot?#iefix) format('embedded-opentype'),
+         url(../font/YouandiModernTR.woff) format('woff'),
+         url(../font/YouandiModernTR.ttf) format('opentype');
+}
+body{font-family: "YouandiModernTR";}
+ul{list-style: none; padding: 0; margin: 0;}
+a{text-decoration: none;}
+
+/* #layout{margin: 0px auto; width: 1400px;} */
+.cf:after{content: ""; display: block; clear: both;}
+#header{width: 100%; height: 665px;}
+#top_wrap{width:100%; height: 105px; background-color: #191919; margin-bottom: 41px; font-family: "YouandiModernTR";}
+#top{/* position: relative; */ width: 1400px; height: 105px; background: #191919; margin: 0 auto; font-family: "YouandiModernTR";}
+#section{width: 100%; /* background-color: #FFEFBF; */}
+#footer{clear: both; width: 100%; height: 310px; background: #FAFAFA; font-family: "YouandiModernTR";}
+
+#top_set{float: left; width: 100%; height: 38px; font-size: 11px;}
+#top_set ul{padding: 3px 92px 0 0;}
+#top_set li.store{float: right; padding: 10px 0 10px 8px;}
+#top_set li.cor{float: right; padding: 10px 8px;}
+#top_set li.indi{float: right; padding: 10px 8px;}
+#top_set li.per{float: right; padding: 10px 8px;}
+#top_set li.join{float: right; padding: 10px 20px;}
+#top_set li.login{float: right; padding: 2px 7px; border: 1px solid #373737; margin-top: 8px;}
+#top_set ul li a{color: #999999; font-family: "YouandiModernTR";}
+#top_set ul li a:hover{color: #ffffff;}
+
+#gnb_box{float: left; width: 100%; height: 67px; position: relative;}
+
+#gnb_logo{float: left; width: 206px; height: 20px; padding: 15px 0 0 2px; }
+
+.menu_wrap{width: 1400px; height: 68px; margin: 0 auto;}
+
+#gnb_menu{float: left; width: 1000px; height: 68px; margin-left: 134px; font-family: "YouandiModernTR"; font-size: 13px; line-height: 20px;}
+#gnb_menu > ul > li{display: inline; float: left;}
+#gnb_menu > ul > li > a{display: block; padding: 19px 19px 31px 19px; color: #ffffff; font-size: 14px; font-family: "YouandiModernTR"}
+#gnb_menu > ul > li > a:hover{background-color: #ffffff; color: #1F75D6;}
+#gnb_menu > ul > li > a:focus{background-color: #ffffff; color: #1F75D6;}
+#search{float: right; width: 24px; height: 24px; margin-top: 17px;}
+#search a{padding-top: 10px;}
+#gnb_menu > ul{ top: 0; left: 0;}
+
+.sub1_1 li{float: none;}
+
+ul > li > .sub_wrap{display: none;}
+ul > li:hover > .sub_wrap{display: block;}
+
+ul > li > .sub_wrap2{display: none;}
+ul > li:hover > .sub_wrap2{display: block;}
+
+ul > li > .sub_wrap3{display: none;}
+ul > li:hover > .sub_wrap3{display: block;}
+ul > li > .sub_wrap4{display: none;}
+ul > li:hover > .sub_wrap4{display: block;}
+ul > li > .sub_wrap5{display: none;}
+ul > li:hover > .sub_wrap5{display: block;}
+ul > li > .sub_wrap6{display: none;}
+ul > li:hover > .sub_wrap6{display: block;}
+ul > li > .sub_wrap7{display: none;}
+ul > li:hover > .sub_wrap7{display: block;}
+ul > li > .sub_wrap8{display: none;}
+ul > li:hover > .sub_wrap8{display: block;} 
+
+.sub_wrap:hover .main_m > li > a{background-color: #ffffff; color: #1F75D6;}
+
+/* 2 Depth */
+.main_m a{color: #999999;}
+.main_m a:hover{color: #1F75D6;}
+.main_m h4{margin-bottom: 5px; color: #191919;}
+.sub_wrap{width: 100%; height:344px; position: absolute; top: 67px; left: 0; background:#00ff00;}
+#sub{width: 1401px;  height: 345px; margin-left: -342px; line-height: 23px;} 
+/* #gnb_menu #sub .sub1_1 li:hover{background: #000000;} */
+.sub1_1{position: absolute; top: 27px; left: 362px; }
+.sub1_2{position: absolute; top: 27px; left: 563px; }
+.sub1_3{position: absolute; top: 27px; left: 763px; }
+.sub1_4{position: absolute; top: 148px; left: 763px; }
+.sub1_5{position: absolute; top: 27px; left: 955px; }
+.sub1_6{position: absolute; top: 148px; left: 955px; }
+.sub1_7{position: absolute; top: 27px; left: 1154px; }
+.sub1_8{position: absolute; top: 190px; left: 1154px; }
+/* #sub a:hover{color: #1F75D6;} */
+
+.sub_wrap2{width: 100%; height:274px; position: absolute; top: 67px; left: 0; background:#00ff00;}
+#sub2{width: 1401px; height: 275px; margin-left: -462px; line-height: 23px;}
+.sub2_1{position: absolute; top: 27px; left: 362px; }
+.sub2_2{position: absolute; top: 55px; left: 486px; }
+.sub2_3{position: absolute; top: 55px; left: 583px; }
+.sub2_4{position: absolute; top: 55px; left: 666px; }
+.sub2_5{position: absolute; top: 110px; left: 666px; }
+.sub2_6{position: absolute; top: 55px; left: 825px; }
+.sub2_7{position: absolute; top: 27px; left: 975px; }
+.sub2_8{position: absolute; top: 124px; left: 975px; }
+.sub2_9{position: absolute; top: 27px; left: 1176px; }
+
+.sub_wrap3{width: 100%; height:225px; position: absolute; top: 67px; left: 0; background:#00ff00;}
+#sub3{width: 1400px; height: 227px; margin-left: -584px; line-height: 23px;}
+.sub3_1{position: absolute; top: 35px; left: 663px; }
+
+.sub_wrap4{width: 100%; height:231px; position: absolute; top: 67px; left: 0; background:#00ff00;}
+#sub4{width: 1400px; height: 232px; margin-left: -688px; line-height: 23px;}
+.sub4_1{position: absolute; top: 35px; left: 767px; }
+.sub4_2{position: absolute; top: 35px; left: 974px; }
+.sub4_3{position: absolute; top: 35px; left: 1164px; }
+
+.sub_wrap5{width: 100%; height:212px; position: absolute; top: 67px; left: 0; background:#00ff00;}
+#sub5{width: 1400px; height: 195px; margin-left: -793px; line-height: 23px;}
+.sub5_1{position: absolute; top: 32px; left: 872px; }
+
+.sub_wrap6{width: 100%; height:214px; position: absolute; top: 67px; left: 0; background:#00ff00;}
+#sub6{width: 1400px; height: 195px; margin-left: -894px; line-height: 23px;}
+.sub6_1{position: absolute; top: 32px; left: 972px; }
+
+.sub_wrap7{width: 100%; height:297px; position: absolute; top: 67px; left: 0; background:#00ff00;}
+#sub7{width: 1400px; height: 297px; margin-left: -1016px; line-height: 23px;}
+.sub7_1{position: absolute; top: 30px; left: 424px; }
+.sub7_2{position: absolute; top: 30px; left: 625px; }
+.sub7_3{position: absolute; top: 30px; left: 825px; }
+.sub7_4{position: absolute; top: 30px; left: 1025px; }
+
+.sub_wrap8{width: 100%; height:322px; position: absolute; top: 67px; left: 0; background:#00ff00;}
+#sub8{width: 1400px; height: 322px; margin-left: -1158px; line-height: 23px;}
+.sub8_1{position: absolute; top: 30px; left: 424px; }
+.sub8_2{position: absolute; top: 30px; left: 625px; }
+.sub8_3{position: absolute; top: 30px; left: 825px; }
+.sub8_4{position: absolute; top: 30px; left: 1025px; }
+
+/* 메인이미지 */
+#mainpic{background:#5698e0 no-repeat; height: 697px; }
+.main_inner{width: 1032px; height: 520px; margin: 0 auto; padding: 95px 0 0;/* background: #B2FF99; */}
+.main_inner h2{float: left; font-size: 16px; margin-bottom: 17px; color: #ffffff;}
+.main_inner h3{clear: both; float: left; font-size: 21px; font-weight: normal; color: #ffffff;}
+.main_inner >h3>a{color: #ffffff;}
+.main_inner >h3>a:hover{text-decoration: underline;}
+.searchBar{float: left; width: 508px; margin: -12px 0 0 129px;}
+.searchBar input{float: left; width: 410px; height: 40px; padding: 0 0 0 10px; margin: 0 8px 0 0; font-size: 13px; font-family: "YouandiModernTR";}
+.searchBar a{float: left; padding: 0 17px; background:#ffffff; color: #000000; border-radius: 2px;}
+.searchBar a:hover{color: #1E75D6;}
+.searchBar span{font-size: 13px; display: block; height: 40px; line-height: 41px;}
+
+.faq_area{clear: both; float: left; width: 1032px; height: 417px; margin-top: 41px;}
+.faq_area a{background: #ffffff; border: 1px solid transparent; display: block; width: 178px; height: 111px; color: #000000; padding: 20px 0 0 20px; }
+.faq_area a:hover{background:#5698E0; border-color: #ffffff;}
+.faq_area a:hover .num{color: #ffffff;}
+.faq_area a:hover .txt{color: #ffffff;}
+.faq_area a:hover strong{color: #ffffff;}
+.faq_area ul{width: 1032px; height: 417px; margin-top: 1px;}
+.faq_area li{float: left; /* width: 200px; height: 134px; */ background: #ffffff; margin: 0 8px 8px 0;}
+.num{display: block; font-size: 13px; margin-bottom: 8px; /* padding: 23px 0 0 21px; */ color: #666666;}
+.txt{float: left; display: bolck; font-size: 15px; line-height: 24px; margin-top: -1px; /* padding: 0 0 0 21px; */}
+.txt strong{color: #1E75D6; font-weight: normal;}
+
+
+
+
+

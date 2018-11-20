@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>01_yahoo_weather_api</title>
+<style>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend { margin: 0px; padding: 0px; border: 0px;}
+body {margin:0px auto; font-family:돋움, Dotum; font-size:12px; text-decoration:none; list-style:none;}
+
+#wrap { width:273px; height:234px; margin: 38px; background-image: url(images/bgsky.jpg);}
+#header{ }
+.afterDay {float: left; width: 349px; height:184px; text-align:right; }
+.afterDay .today_text {float:left; font-size: 20px; margin-left: -70px; margin-top:97px; color: white; font-weight: bold;}
+.weather_icon {float: left; padding-top: 16px; padding-left: 30px; }
+
+.dateweek {overflow:hidden; float:left; padding-top:56px; padding-left:17px;}
+.dateweek .datecontent { float:left; font-size: 13px; text-align: center; letter-spacing: 1px; color: white; font-weight: bold; position: absolute; left: 81px; top: 190px;}
+.dateweek .cloudsmall { float:left; padding-left: 5px; text-align: left;  width: 36px; height: 35px;}
+.dateweek .cloudsmall img { width:100%; height:100%;}
+.dateweek .number { float:left; padding-left:43px; margin-top: 96px; font-size: 13px; text-align: center; letter-spacing: 2px; color: white; font-weight: bold;}
+.datecontent02 {clear: both; float:left; font-size: 13px; text-align: center; letter-spacing: 1px; color: white; font-weight: bold; position: absolute; top: 215px; left: 81px;}
+.cloudsmall02 { float:left;  padding-left: 5px;text-align: left; width: 36px; height: 35px;}
+.cloudsmall02 img { width:100%; height:100%;}
+.number02 { float:left; padding-left:8px; font-size: 13px; text-align: center; letter-spacing: 2px; color: white; font-weight: bold; position: absolute; right: 84px; bottom: 79px;}
+
+.today { float: right; height: 180px; padding-top: 6px; } 
+.temp { position:relative; bottom: 176px; left: 153px; float:left; *width:235px; letter-spacing: -4px; line-height: 89%; font-size: 75px; color: white; padding-top:9px; font-family:arial; }
+.date {position: relative; float: right; bottom: 189px; left: 38px; padding-top: 26px; width:180px; padding-left: 98px; letter-spacing: 1px; font-size: 13px; color: white; font-weight: bold;}
+.degspan {position: absolute; font-family:arial; font-size: 60px; right: -25px; top: -4px;}
+/*
+.today { float: right; height: 180px; padding-top: 6px; } 
+.temp { position:relative; float:left; *width:235px; letter-spacing: -21px; line-height: 89%; font-size: 220px; color: white; padding-top:12px;}
+.date {float: right; padding-top: 26px; width:180px; padding-left: 98px; letter-spacing: -1px; font-size: 24px;color: white; }
+.degspan {position: absolute; font-family:arial; font-size: 82px; right: -25px; top: -4px;}
+*/
+</style> 
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/weather.js"></script>
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="header">
+			<div class="afterDay">
+				
+				<div class="weather_icon">
+					<img src="images/iconbig.png" alt="날씨흐림" />
+				</div>
+				<div class="today_text">
+					Today
+				</div>
+				<div class="dateweek">
+					<div class="datecontent">
+						10/18<br />
+					</div>
+					<div class="number">
+						<span class="high">25</span>&deg;
+						<span class="low">11</span>&deg;
+					</div>
+					<div class="datecontent02">
+						10/18<br />
+					</div>
+					<div class="number02">
+						<span class="high">25</span>&deg;
+						<span class="low">11</span>&deg;
+					</div>
+				</div>
+			</div>
+			<div class="today">
+				<div class="temp">
+					<span class="c">28</span><span class="degspan">&deg;</span>
+				</div>
+				<div class="date">
+					화요일,&nbsp;10/17
+				</div>
+			</div>
+
+		</div>
+		
+
+	</div>
+</body>
+
+</html>
